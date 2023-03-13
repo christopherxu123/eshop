@@ -1,0 +1,33 @@
+.home {
+    display: block;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+    /* max-width: 1500px; */
+}
+.home__image {
+    /* position: absolute; */
+
+    /* left: 0%; */
+    /* justify-content:normal; */
+    /* display:grid; */
+    right: 0;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+    margin-bottom: -200px;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home__row {  
+    display: flex; 
+    z-index: 1; 
+    margin-left: 5px;  
+    margin-right: 5px;
+    justify-content:center;
+
+}
+.home__container{
+    /* width: max-content; */
+    margin: 0%;
+}
